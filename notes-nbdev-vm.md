@@ -103,8 +103,9 @@ cd try-nbdev
 
     nbdev_new
 
-<details><summary>output</summary>
->   /home/bill/.local/pipx/venvs/nbdev/lib/python3.8/site-packages/ghapi/core.py:101: UserWarning: Neither GITHUB_TOKEN nor GITHUB_JWT_TOKEN found: running as unauthenticated
+<details><summary>(output)</summary>
+```
+   /home/bill/.local/pipx/venvs/nbdev/lib/python3.8/site-packages/ghapi/core.py:101: UserWarning: Neither GITHUB_TOKEN nor GITHUB_JWT_TOKEN found: running as unauthenticated
     else: warn('Neither GITHUB_TOKEN nor GITHUB_JWT_TOKEN found: running as unauthenticated')
     repo = try-nbdev # Automatically inferred from git
     branch = main # Automatically inferred from git
@@ -113,12 +114,14 @@ cd try-nbdev
     description = Exploring nbdev by fast.ai. # Automatically inferred from git
     settings.ini created.
     /bin/sh: 1: quarto: not found"
+```
 </details>
 
 See what was generated.
 
     tree
 
+<details><summary>(output)</summary>
 ```
 .
 ├── `LICENSE`
@@ -143,6 +146,7 @@ See what was generated.
     ├── `__init__.py`
     └── `_modidx.py`
 ```
+</details>
 
 ---
 
