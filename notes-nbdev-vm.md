@@ -14,13 +14,21 @@ Start by installing *Jupyter notebook*.
 
     pipx install notebook
 
->   installed package notebook 6.4.12, installed using Python 3.8.10
->   These apps are now globally available
->   - jupyter-bundlerextension
->   - jupyter-nbextension
->   - jupyter-notebook
->   - jupyter-serverextension
->   done!
+<details><summary><sub>(command output)</sub></summary>
+
+```
+installed package notebook 6.4.12, installed using Python 3.8.10
+These apps are now globally available
+- jupyter-bundlerextension
+- jupyter-nbextension
+- jupyter-notebook
+- jupyter-serverextension
+done!
+```
+
+</details>
+<p>&nbsp;</p>
+
 
 Try running Jupyter notebook server.
 
@@ -32,38 +40,45 @@ Install nbdev.
 
     pipx install nbdev
 
->   pipx install nbdev
->   installed package nbdev 2.3.7, installed using Python 3.8.10
->   These apps are now globally available
->   - nbdev_bump_version
->   - nbdev_changelog
->   - nbdev_clean
->   - nbdev_conda
->   - nbdev_create_config
->   - nbdev_docs
->   - nbdev_export
->   - nbdev_filter
->   - nbdev_fix
->   - nbdev_help
->   - nbdev_install
->   - nbdev_install_hooks
->   - nbdev_install_quarto
->   - nbdev_merge
->   - nbdev_migrate
->   - nbdev_new
->   - nbdev_prepare
->   - nbdev_preview
->   - nbdev_proc_nbs
->   - nbdev_pypi
->   - nbdev_readme
->   - nbdev_release_both
->   - nbdev_release_gh
->   - nbdev_release_git
->   - nbdev_sidebar
->   - nbdev_test
->   - nbdev_trust
->   - nbdev_update
->   done!
+<details><summary><sub>(command output)</sub></summary>
+
+```
+pipx install nbdev
+installed package nbdev 2.3.7, installed using Python 3.8.10
+These apps are now globally available
+- nbdev_bump_version
+- nbdev_changelog
+- nbdev_clean
+- nbdev_conda
+- nbdev_create_config
+- nbdev_docs
+- nbdev_export
+- nbdev_filter
+- nbdev_fix
+- nbdev_help
+- nbdev_install
+- nbdev_install_hooks
+- nbdev_install_quarto
+- nbdev_merge
+- nbdev_migrate
+- nbdev_new
+- nbdev_prepare
+- nbdev_preview
+- nbdev_proc_nbs
+- nbdev_pypi
+- nbdev_readme
+- nbdev_release_both
+- nbdev_release_gh
+- nbdev_release_git
+- nbdev_sidebar
+- nbdev_test
+- nbdev_trust
+- nbdev_update
+done!
+```
+
+</details>
+<p>&nbsp;</p>
 
 ---
 
@@ -103,7 +118,7 @@ cd try-nbdev
 
     nbdev_new
 
-<details><summary>(output)</summary>
+<details><summary><sub>(command output)</sub></summary>
 
 ```
 /home/bill/.local/pipx/venvs/nbdev/lib/python3.8/site-packages/ghapi/core.py:101: UserWarning: Neither GITHUB_TOKEN nor GITHUB_JWT_TOKEN found: running as unauthenticated
@@ -118,12 +133,13 @@ settings.ini created.
 ```
 
 </details>
+<p>&nbsp;</p>
 
 See what was generated.
 
     tree
 
-<details><summary>(output)</summary>
+<details><summary><sub>(command output)</sub></summary>
 
 ```
 .
@@ -191,11 +207,14 @@ Enable GitHub Pages for the repo: [nbdev - End-To-End Walkthrough](https://nbdev
 Renamed `00_core.ipynb` to `00_hello.ipynb`.
 When running the code in the notebook there is an error:
 
->   ModuleNotFoundError                       Traceback (most recent call last)
+```
+ModuleNotFoundError          Traceback (most recent call last)
 Cell In [2], line 2
-1 #| hide
+      1 #| hide
 ----> 2 from nbdev.showdoc import *
+
 ModuleNotFoundError: No module named 'nbdev'
+```
 
 This might be due to using *pipx* to install.
 Try creating a `venv` and installing into that.
@@ -222,27 +241,40 @@ Edit notebook content.
 
     nbdev_prepare
 
->   Success.
->   pandoc -o README.md
->     to: gfm+footnotes+tex_math_dollars-yaml_metadata_block
->     output-file: index.html
->     standalone: true
->     default-image-extension: png
->
->   metadata
->     description: Exploring nbdev by fast.ai.
->     title: try-nbdev
->
->   Output created: _docs/README.md
+<details><summary><sub>(command output)</sub></summary>
 
+```
+Success.
+pandoc -o README.md
+  to: gfm+footnotes+tex_math_dollars-yaml_metadata_block
+  output-file: index.html
+  standalone: true
+  default-image-extension: png
+
+metadata
+  description: Exploring nbdev by fast.ai.
+  title: try-nbdev
+
+Output created: _docs/README.md
+```
+
+</details>
+<p>&nbsp;</p>
 
     pip install -e '.[dev]'
 
->   Obtaining file:///home/bill/git/try-nbdev
-    Preparing metadata (setup.py) ... done
-    Installing collected packages: try-nbdev
-    Running setup.py develop for try-nbdev
-    Successfully installed try-nbdev-0.0.1
+<details><summary><sub>(command output)</sub></summary>
+
+```
+Obtaining file:///home/bill/git/try-nbdev
+Preparing metadata (setup.py) ... done
+Installing collected packages: try-nbdev
+Running setup.py develop for try-nbdev
+Successfully installed try-nbdev-0.0.1
+```
+
+</details>
+<p>&nbsp;</p>
 
 Make more edits and push to GitHub.
 
