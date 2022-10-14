@@ -15,12 +15,12 @@ Start by installing *Jupyter notebook*.
     pipx install notebook
 
 >   installed package notebook 6.4.12, installed using Python 3.8.10
-    These apps are now globally available
-    - jupyter-bundlerextension
-    - jupyter-nbextension
-    - jupyter-notebook
-    - jupyter-serverextension
-    done!
+>   These apps are now globally available
+>   - jupyter-bundlerextension
+>   - jupyter-nbextension
+>   - jupyter-notebook
+>   - jupyter-serverextension
+>   done!
 
 Try running Jupyter notebook server.
 
@@ -33,37 +33,37 @@ Install nbdev.
     pipx install nbdev
 
 >   pipx install nbdev
-    installed package nbdev 2.3.7, installed using Python 3.8.10
-    These apps are now globally available
-    - nbdev_bump_version
-    - nbdev_changelog
-    - nbdev_clean
-    - nbdev_conda
-    - nbdev_create_config
-    - nbdev_docs
-    - nbdev_export
-    - nbdev_filter
-    - nbdev_fix
-    - nbdev_help
-    - nbdev_install
-    - nbdev_install_hooks
-    - nbdev_install_quarto
-    - nbdev_merge
-    - nbdev_migrate
-    - nbdev_new
-    - nbdev_prepare
-    - nbdev_preview
-    - nbdev_proc_nbs
-    - nbdev_pypi
-    - nbdev_readme
-    - nbdev_release_both
-    - nbdev_release_gh
-    - nbdev_release_git
-    - nbdev_sidebar
-    - nbdev_test
-    - nbdev_trust
-    - nbdev_update
-    done!
+>   installed package nbdev 2.3.7, installed using Python 3.8.10
+>   These apps are now globally available
+>   - nbdev_bump_version
+>   - nbdev_changelog
+>   - nbdev_clean
+>   - nbdev_conda
+>   - nbdev_create_config
+>   - nbdev_docs
+>   - nbdev_export
+>   - nbdev_filter
+>   - nbdev_fix
+>   - nbdev_help
+>   - nbdev_install
+>   - nbdev_install_hooks
+>   - nbdev_install_quarto
+>   - nbdev_merge
+>   - nbdev_migrate
+>   - nbdev_new
+>   - nbdev_prepare
+>   - nbdev_preview
+>   - nbdev_proc_nbs
+>   - nbdev_pypi
+>   - nbdev_readme
+>   - nbdev_release_both
+>   - nbdev_release_gh
+>   - nbdev_release_git
+>   - nbdev_sidebar
+>   - nbdev_test
+>   - nbdev_trust
+>   - nbdev_update
+>   done!
 
 ---
 
@@ -118,27 +118,27 @@ See what was generated.
     tree
 
 >   .
-    ├── `LICENSE`
-    ├── `MANIFEST.in`
-    ├── `nbs`
-    │   ├── `00_core.ipynb`
-    │   ├── `index.ipynb`
-    │   ├── `nbdev.yml`
-    │   ├── `_quarto.yml`
-    │   └── `styles.css`
-    ├── `_proc`
-    │   ├── `00_core.ipynb`
-    │   ├── `index.ipynb`
-    │   ├── `nbdev.yml`
-    │   ├── `_quarto.yml`
-    │   └── `styles.css`
-    ├── `README.md`
-    ├── `settings.ini`
-    ├── `setup.py`
-    └── `try_nbdev`
-        ├── `core.py`
-        ├── `__init__.py`
-        └── `_modidx.py`
+>   ├── `LICENSE`
+>   ├── `MANIFEST.in`
+>   ├── `nbs`
+>   │   ├── `00_core.ipynb`
+>   │   ├── `index.ipynb`
+>   │   ├── `nbdev.yml`
+>   │   ├── `_quarto.yml`
+>   │   └── `styles.css`
+>   ├── `_proc`
+>   │   ├── `00_core.ipynb`
+>   │   ├── `index.ipynb`
+>   │   ├── `nbdev.yml`
+>   │   ├── `_quarto.yml`
+>   │   └── `styles.css`
+>   ├── `README.md`
+>   ├── `settings.ini`
+>   ├── `setup.py`
+>   └── `try_nbdev`
+>       ├── `core.py`
+>       ├── `__init__.py`
+>       └── `_modidx.py`
 
 ---
 
