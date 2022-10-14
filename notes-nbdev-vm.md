@@ -117,28 +117,30 @@ See what was generated.
 
     tree
 
->   .
->   ├── `LICENSE`
->   ├── `MANIFEST.in`
->   ├── `nbs`
->   │   ├── `00_core.ipynb`
->   │   ├── `index.ipynb`
->   │   ├── `nbdev.yml`
->   │   ├── `_quarto.yml`
->   │   └── `styles.css`
->   ├── `_proc`
->   │   ├── `00_core.ipynb`
->   │   ├── `index.ipynb`
->   │   ├── `nbdev.yml`
->   │   ├── `_quarto.yml`
->   │   └── `styles.css`
->   ├── `README.md`
->   ├── `settings.ini`
->   ├── `setup.py`
->   └── `try_nbdev`
->       ├── `core.py`
->       ├── `__init__.py`
->       └── `_modidx.py`
+```
+.
+├── `LICENSE`
+├── `MANIFEST.in`
+├── `nbs`
+│   ├── `00_core.ipynb`
+│   ├── `index.ipynb`
+│   ├── `nbdev.yml`
+│   ├── `_quarto.yml`
+│   └── `styles.css`
+├── `_proc`
+│   ├── `00_core.ipynb`
+│   ├── `index.ipynb`
+│   ├── `nbdev.yml`
+│   ├── `_quarto.yml`
+│   └── `styles.css`
+├── `README.md`
+├── `settings.ini`
+├── `setup.py`
+└── `try_nbdev`
+    ├── `core.py`
+    ├── `__init__.py`
+    └── `_modidx.py`
+```
 
 ---
 
