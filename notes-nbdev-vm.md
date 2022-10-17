@@ -103,7 +103,6 @@ Add key to GitHub account.
 
 [Adding a new SSH key to your GitHub account - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
-[ ] Remove the key from GitHub after this experiment is done.
 
 ---
 
