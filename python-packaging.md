@@ -1,10 +1,24 @@
 # Python Packaging
 
-## Tools
+[Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/) - Python Packaging User Guide
+
+[Python Packaging tutorial](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
+To test publishing a package you can create an account at [TestPyPI](https://test.pypi.org/)
+
+[Using TestPyPI](https://packaging.python.org/en/latest/guides/using-testpypi/)
+
+
+## Packaging Tools
 
 ### setuptools
 
 Project Summaries: [setuptools](https://packaging.python.org/en/latest/key_projects/#setuptools)
+
+Project Summaries: [build](https://packaging.python.org/en/latest/key_projects/#build)
+
+Project Summaries: [twine](https://packaging.python.org/en/latest/key_projects/#twine)
+
 
 ### Poetry
 
@@ -50,11 +64,13 @@ InfoWorld - Serdar Yegulalp ([Dev with Serdar](https://www.youtube.com/playlist?
 
 ## Posts
 
-[Switching to Hatch – Oliver Andrich](https://andrich.me/2023/08/switching-to-hatch/)
+**Oliver Andrich**
+
+[Switching to Hatch](https://andrich.me/2023/08/switching-to-hatch/)
 
 ---
 
-2023-11-04
+**Anna-Lena Popkes**
 
 Talk Python To Me Podcast: [Episode #436 - An Unbiased Evaluation of Environment and Packaging Tools](https://talkpython.fm/episodes/show/436/an-unbiased-evaluation-of-environment-and-packaging-tools) with [Anna-Lena Popkes](https://alpopkes.com/)
 
@@ -71,7 +87,7 @@ Pandas uses this package (I've seen it other places recently): [versioneer · Py
 
 ---
 
-**Simon Willison - only pyproject.toml**
+**Simon Willison**
 
 [Python packages with pyproject.toml and nothing else | Simon Willison’s TILs](https://til.simonwillison.net/python/pyproject)
 - Uses [setuptools](https://setuptools.pypa.io/en/latest/)
