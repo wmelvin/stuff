@@ -8,6 +8,10 @@
 
 - [python-packaging](doc/python-packaging.md)
 
+**Rust**
+
+- [rust-lang](doc/rust-lang.md) - links and notes
+
 **Tools**
 
 - [cookiecutter-links](doc/cookiecutter-links.md)
