@@ -6,7 +6,7 @@ These tools have worked well together:
 
 - [scapr](https://github.com/wmelvin/scapr) - Capture screenshots.
 - [ImagePicker](https://github.com/wmelvin/ImagePicker) - Pick from captured screenshots.
-- [image-snip](https://github.com/wmelvin/image-snip) - Do things with the scelectd images such as crop, add text footers, or make an animated GIF.
+- [image-snip](https://github.com/wmelvin/image-snip) - Do things with the selected images such as crop, add text footers, or make an animated GIF.
 
 ## Documents
 
