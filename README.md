@@ -15,6 +15,7 @@ These tools have worked well together:
 **Python**
 
 - [python-packaging](doc/python-packaging.md)
+- [textual](doc/python-textual.md)
 
 **Rust**
 
