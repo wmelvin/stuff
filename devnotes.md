@@ -27,6 +27,6 @@ Use pipx to install scapr (it's on [PyPI](https://pypi.org/project/scapr/))
 pipx install scapr
 ```
 
-After reopening the PowerShell terminal, I ran `scapr` and it captured screenshots with no problems. It works on windows, but unfortunately it does not work well on Ubuntu with *Wayland* (but that's another story).
+After reopening the PowerShell terminal, I ran `scapr` and it captured screenshots with no problems. It works on Windows, but unfortunately it does not work well on Ubuntu with *Wayland* (but that's another story).
 
 ---

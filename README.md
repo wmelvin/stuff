@@ -2,6 +2,10 @@
 
 ## Notes
 
+[devnotes](devnotes.md) - A place for various notes. Perhaps a *Lately I Learned* (LIL - less timely than a TIL) page.
+
+---
+
 These tools have worked well together:
 
 - [scapr](https://github.com/wmelvin/scapr) - Capture screenshots.
@@ -9,8 +13,6 @@ These tools have worked well together:
 - [image-snip](https://github.com/wmelvin/image-snip) - Do things with the selected images such as crop, add text footers, or make an animated GIF.
 
 ## Documents
-
-[devnotes](devnotes.md) - A place for various notes. Perhaps a *Lately I Learned* (LIL - less timely than a TIL) page.
 
 **Shell**
 
