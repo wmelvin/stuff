@@ -10,6 +10,10 @@ These tools have worked well together:
 
 ## Documents
 
+[devnotes](devnotes.md) - A place for various notes. Perhaps a *Lately I Learned* (LIL - less timely than a TIL) page.
+
+**Shell**
+
 - [BASH / ShellScript](doc/bash-sh.md)
 
 **Python**
