@@ -2,11 +2,9 @@
 
 ## 2024-01-31
 
-When getting started with a new tool, it's easy to miss important aspects of using the tool when the first steps down the happy path are fairly easy.
+When getting started with a new tool, it's easy to miss important aspects of using the tool when the first steps down the happy path are fairly easy. I have been switching to using [pipenv](https://github.com/pypa/pipenv) for managing dependencies and virtual environments for Python projects.
 
-I have been switching to using `pipenv` for managing dependencies and virtual environments for Python projects.
-
-If a project had a `requirements-dev.txt` like this:
+If a project previously had a `requirements-dev.txt` like this:
 
 ```
 pytest
@@ -29,12 +27,11 @@ pipenv install pillow
 What I was not aware of is that, by default, `pipenv install` also adds a **required Python version** to the `Pipfile` when it creates a new one.
 
 ```toml
-...
 [requires]
 python_version = "3.12"
 ```
 
-This `python_version` set based on the current version on the system, and is set to one specific version (not a minimum or range). If the repository is cloned onto another system, and `pipenv sync` is used to set up the environment and dependencies, it will fail if that specific Python version is not installed. That is not what I want.
+The `python_version` is set based on the current version on the system, and is set to one specific version (not a minimum or range). If the repository is cloned onto another system, and `pipenv sync` is used to set up the environment and dependencies, it will fail if that specific Python version is not installed. That is not what I want.
 
 It is okay to remove the `[requires] \ python_version` section.
 
