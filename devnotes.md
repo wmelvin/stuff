@@ -1,5 +1,50 @@
 # devnotes
 
+## 2024-01-31
+
+When getting started with a new tool, it's easy to miss important aspects of using the tool when the first steps down the happy path are fairly easy.
+
+I have been switching to using `pipenv` for managing dependencies and virtual environments for Python projects.
+
+If a project had a `requirements-dev.txt` like this:
+
+```
+pytest
+ruff
+```
+
+And a `requirements.txt` (or `requirements.in`) like this:
+
+```
+pillow
+```
+
+The `pipenv install` command will create a `Pipfile` listing those dependencies, create a `Pipfile.lock` that holds the version details for the dependencies (and sub-dependencies), creates a virtual environment for the project, and installs the dependencies.
+
+```bash
+pipenv install pytest ruff --dev
+pipenv install pillow
+```
+
+What I was not aware of is that, by default, `pipenv install` also adds a **required Python version** to the `Pipfile` when it creates a new one.
+
+```toml
+...
+[requires]
+python_version = "3.12"
+```
+
+This `python_version` set based on the current version on the system, and is set to one specific version (not a minimum or range). If the repository is cloned onto another system, and `pipenv sync` is used to set up the environment and dependencies, it will fail if that specific Python version is not installed. That is not what I want.
+
+It is okay to remove the `[requires] \ python_version` section.
+
+After removing `python_version` run `pipenv lock` to update the `Pipfile.lock` file.
+
+Reference:
+
+- Pipfile - [general-notes-and-recommendations](https://pipenv.pypa.io/en/latest/pipfile.html#general-notes-and-recommendations)
+- pipenv - [specifying-versions-of-python](https://pipenv.pypa.io/en/latest/specifiers.html?highlight=python_version#specifying-versions-of-python)
+
 ## 2024-01-29
 
 Lately I have been switching to using `pipenv` to manage dependencies and virtual environments for Python projects. It pairs nicely with using `just` to run the commands in a per-project `Justfile`.
