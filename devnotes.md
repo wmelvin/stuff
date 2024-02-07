@@ -1,5 +1,24 @@
 # devnotes
 
+## 2024-02-07
+
+GitHub Copilot's suggestions can be helpful or distracting depending on the context. Sometimes it saves me a lot of time, other times it slows me down having to evaluate every suggestion (and I get tired of hitting `Esc`). I went looking to see if there was a way to quickly toggle it.
+
+I found a post by Rach Smith, [quickly-toggle-copilot](https://rachsmith.com/quickly-toggle-copilot/), that described a solution using a vscode extension and a keybinding. In the comments on that post, Simon Boehm gave a simpler solution that does not require an extension. The command referenced in the comment was not available when the original post was written.
+
+In Visual Studio Code, select `File` -> `Preferences` -> `Keyboard Shortcuts` (or `[Ctrl+K Ctrl+S]`).
+
+Near the top-right of the *Keyboard Shortcuts* page there is a small button to *Open Keyboard Shortcuts (JSON)*.
+
+That opens `keybindings.json` (user settings). I entered the following to use `[Ctrl+Shift+x]` as the toggle.
+
+```json
+  {
+    "command": "github.copilot.toggleCopilot",
+    "key": "ctrl+shift+x"
+  },
+```
+
 ## 2024-01-31
 
 When getting started with a new tool, it's easy to miss important aspects of using the tool when the first steps down the happy path are fairly easy. I have been switching to using [pipenv](https://github.com/pypa/pipenv) for managing dependencies and virtual environments for Python projects.
