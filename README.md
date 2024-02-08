@@ -43,4 +43,6 @@ Notes from exploring **nbdev**:
 
 - [efcore-postgresql-links](doc/efcore-postgresql-links.md)
 
-<sub>Perhaps *"miscellany"* would be a better title, but *"stuff"* is shorter (and it's nicer than *"crap"*).</sub>
+---
+
+<sub>**Stuff?** Perhaps *"miscellany"* would be a more appropriate title, but *"stuff"* is shorter (and it's nicer than *"crap"*).</sub>
