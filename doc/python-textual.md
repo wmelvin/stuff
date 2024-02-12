@@ -2,6 +2,8 @@
 
 Website: [Textual](https://textual.textualize.io/)
 
+> Textual is a Rapid Application Development framework for Python, built by [Textualize.io](https://www.textualize.io/).
+
 [Textualize/tcss-vscode-extension](https://github.com/Textualize/tcss-vscode-extension) - VS Code extension that enables syntax highlighting for Textual CSS files.
 
 **Will McGugan is the author of Textual**

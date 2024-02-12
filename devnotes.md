@@ -1,6 +1,13 @@
 # devnotes
 
-## 2024-02-07
+## 2024-02-12 - Testing Textual apps
+
+I started work on testing a [Textual](doc/python-textual.md) app as described on their [Testing](https://textual.textualize.io/guide/testing/) page.
+
+It was necessary to install [pytest-asyncio](https://pypi.org/project/pytest-asyncio/) because the [run_test](https://textual.textualize.io/api/app/#textual.app.App.run_test) method is an async context manager. I also installed the [pytest-textual-snapshot](https://pypi.org/project/pytest-textual-snapshot/) plugin for pytest which provides [snapshot testing](https://textual.textualize.io/guide/testing/#snapshot-testing).
+
+
+## 2024-02-07 - Toggle Copilot
 
 GitHub Copilot's suggestions can be helpful or distracting depending on the context. Sometimes it saves me a lot of time, other times it slows me down having to evaluate every suggestion (and I get tired of hitting `Esc`). I went looking to see if there was a way to quickly toggle it.
 
@@ -19,7 +26,7 @@ That opens `keybindings.json` (user settings). I entered the following to use `[
   },
 ```
 
-## 2024-01-31
+## 2024-01-31 - pipenv - pruning python_version
 
 When getting started with a new tool, it's easy to miss important aspects of using the tool when the first steps down the happy path are fairly easy. I have been switching to using [pipenv](https://github.com/pypa/pipenv) for managing dependencies and virtual environments for Python projects.
 
@@ -61,7 +68,7 @@ Reference:
 - Pipfile - [general-notes-and-recommendations](https://pipenv.pypa.io/en/latest/pipfile.html#general-notes-and-recommendations)
 - pipenv - [specifying-versions-of-python](https://pipenv.pypa.io/en/latest/specifiers.html?highlight=python_version#specifying-versions-of-python)
 
-## 2024-01-29
+## 2024-01-29 - pipenv and just
 
 Lately I have been switching to using `pipenv` to manage dependencies and virtual environments for Python projects. It pairs nicely with using `just` to run the commands in a per-project `Justfile`.
 
@@ -74,7 +81,7 @@ Lately I have been switching to using `pipenv` to manage dependencies and virtua
 I learned about **Just** from reading posts (and code) by [Simon Willison](https://github.com/simonw), such as this post on [Using just with Django](https://til.simonwillison.net/django/just-with-django).
 
 
-## 2024-01-26
+## 2024-01-26 - pipx on Windows
 
 I run Linux on my main PC where I do my Python projects. I had not yet tried running my [scapr](https://github.com/wmelvin/scapr) screen capture tool on Windows. I have been using `pipx` to install Python applications on Linux. The docs have instructions for installing [pipx on Windows](https://github.com/pypa/pipx#on-windows). One method is to use [scoop](https://scoop.sh/), which is new to me. 
 
