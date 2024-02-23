@@ -14,33 +14,26 @@ These tools have worked well together:
 
 ## Documents
 
-**Shell**
-
+- [Azure Bits](doc/azure-bits.md)
 - [BASH / ShellScript](doc/bash-sh.md)
+- [Rust](doc/rust-lang.md) - links and notes
 
 **Python**
 
 - [python-packaging](doc/python-packaging.md)
 - [textual](doc/python-textual.md)
 
-**Rust**
-
-- [rust-lang](doc/rust-lang.md) - links and notes
-
 **Tools**
 
 - [cookiecutter-links](doc/cookiecutter-links.md)
+- Notes from exploring **nbdev**:
 
-Notes from exploring **nbdev**:
-
-- [notes-nbdev-tutorial](doc/notes-nbdev-tutorial.md)
-
-- [notes-nbdev-vm](doc/notes-nbdev-vm.md)
+    - [notes-nbdev-tutorial](doc/notes-nbdev-tutorial.md)
+    - [notes-nbdev-vm](doc/notes-nbdev-vm.md)
 
 **.NET Core**
 
 - [aspnet-core-identity](doc/aspnet-core-identity.md)
-
 - [efcore-postgresql-links](doc/efcore-postgresql-links.md)
 
 ---
