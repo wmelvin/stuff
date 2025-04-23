@@ -9,6 +9,10 @@ It was necessary to install [pytest-asyncio](https://pypi.org/project/pytest-asy
 
 ## 2024-02-07 - Toggle Copilot
 
+**UPDATE 2025-04-23:** The command `github.copilot.toggleCopilot` was replaced by `github.copilot.completions.toggle`.
+
+---
+
 GitHub Copilot's suggestions can be helpful or distracting depending on the context. Sometimes it saves me a lot of time, other times it slows me down having to evaluate every suggestion (and I get tired of hitting `Esc`). I went looking to see if there was a way to quickly toggle it.
 
 I found a post by Rach Smith, [quickly-toggle-copilot](https://rachsmith.com/quickly-toggle-copilot/), that described a solution using a vscode extension and a keybinding. In the comments on that post, Simon Boehm gave a simpler solution that does not require an extension. The command referenced in the comment was not available when the original post was written.
@@ -21,7 +25,7 @@ That opens `keybindings.json` (user settings). I entered the following to use `[
 
 ```json
   {
-    "command": "github.copilot.toggleCopilot",
+    "command": "github.copilot.completions.toggle",
     "key": "ctrl+shift+x"
   },
 ```
